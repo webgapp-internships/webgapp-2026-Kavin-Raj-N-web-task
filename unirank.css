@@ -1,0 +1,78 @@
+body {
+  margin: 0%;
+  font-family: Arial;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-links {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.qs {
+  height: 35px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 50px;
+}
+
+button {
+  font-family: Arial;
+  padding: 10px;
+}
+
+.counsel {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.search {
+  width: 20px;
+}
+
+.signup {
+  background-color: rgb(246, 198, 42);
+  border: none;
+  border-radius: 5px;
+}
+
+.secondnav {
+  padding: 10px;
+  background-color: rgb(246, 198, 42);
+  display: flex;
+  align-items: center;
+  gap: 35px;  
+}
+
+.secondnav {
+  font-size: small;
+  display: flex;
+  
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 100px;
+}
