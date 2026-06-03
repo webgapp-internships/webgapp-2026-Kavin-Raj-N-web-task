@@ -1,6 +1,7 @@
+html,
 body {
   margin: 0%;
-  font-family: Arial;
+  font-family: PP Telegraf;
 }
 
 .nav {
@@ -14,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-weight: bold;
 }
 
 .qs {
@@ -27,22 +29,29 @@ a {
   font-size: small;
 }
 
-.user {
+.access {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 button {
-  font-family: Arial;
+  font-family: PP Telegraf;
   padding: 10px;
 }
 
 .counsel {
+  border: 1px solid rgb(255, 207, 49);
+  background-color: rgb(255, 207, 49);
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+.apply {
   border: 1px solid black;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 18px;
   font-weight: bold;
 }
 
@@ -50,24 +59,18 @@ button {
   width: 20px;
 }
 
-.signup {
-  background-color: rgb(246, 198, 42);
-  border: none;
-  border-radius: 5px;
-}
-
 .secondnav {
   padding: 10px;
   background-color: rgb(246, 198, 42);
   display: flex;
   align-items: center;
-  gap: 35px;  
+  gap: 35px;
 }
 
 .secondnav {
   font-size: small;
   display: flex;
-  
+
 }
 
 .body {
@@ -76,3 +79,10 @@ button {
   padding-top: 25px;
   padding-left: 100px;
 }
+
+.para1 {
+  width: 800px;
+  line-height: 1em;
+}
+
+

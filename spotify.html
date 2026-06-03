@@ -1,44 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify</title>
-    <link rel="stylesheet" href="spotify.css" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="nav-bar">
-        <a href="spotify.html" class="spotify-a"
-          ><img src="spotify.png" alt="spotify-logo" class="spotify-logo"
-        /></a>
-        <div class="search">
-          <button class="home_button">
-            <img src="home.png" alt="home-icon" class="home_img" />
-          </button>
-          <input
-            type="search"
-            class="search_input"
-            placeholder="What do you want to play?"
-          />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify</title>
+        <link rel="stylesheet" href="spotify.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav-bar">
+                <a href="spotify.html" class="spotify-icon">
+                    <img
+                        src="spotify.png"
+                        alt="spotify-logo"
+                        class="spotify-logo"
+                    />
+                </a>
+
+                <div class="search">
+                    <div class="search_bar">
+                        <button class="home_button">
+                            <img
+                                src="home.png"
+                                alt="home-icon"
+                                class="home_img"
+                            />
+                        </button>
+                        <input
+                            type="search"
+                            class="search_input"
+                            placeholder="What do you want to play?"
+                        />
+                    </div>
+
+                    <div class="user">
+                        <button class="explore">Explore Premium</button>
+                        <button class="install">Install App</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app">
+                <div class="left"></div>
+                <div class="center"></div>
+                <div class="right"></div>
+
+                <div class="bottom">
+                    <div class="bottom_left">
+                        <a href="" class="singer_image"></a>
+                        <div class="song_details">
+                            <a href="" class="song_name">MILLION DOLLAR BABY</a>
+                            <br />
+                            <a href="" class="singer_name">Tommy Richman</a>
+                        </div>
+                        <button class="add_button">
+                            <img src="add.png" alt="" class="add_icon" />
+                        </button>
+                    </div>
+
+                    <div class="controls">
+                        <button class="shuffle"><img src="" alt="" /></button>
+                        <button class="rewind"><img src="" alt="" /></button>
+                        <button class="pause-play">
+                            <img src="" alt="" />
+                        </button>
+                        <button class="fast-forward">
+                            <img src="" alt="" />
+                        </button>
+                        <button class="repeat"><img src="" alt="" /></button>
+                    </div>
+
+                    <div class="volume_settings"></div>
+                </div>
+            </div>
         </div>
-
-        <div class="user">
-          <button class="explore">Explore Premium</button>
-          <button class="install">Install App</button>
-        </div>
-      </div>
-
-      <div class="seperator"><div class="split_screen">
-        <div class="your-library"><p>your-library</p></div>
-        <div class="catalog"><p>catalog</p></div>
-        <div class="info"><p>info</p></div>
-      </div>
-
-      <div class="player">
-        <p>player</p>
-      </div></div>
-      
-    </div>
-  </body>
+    </body>
 </html>

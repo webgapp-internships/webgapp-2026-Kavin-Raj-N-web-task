@@ -1,93 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-  <body>
-    <h1>Fill the Form</h1>
-    <form>
-      <div class="rollno">
-        <label for="rollno">Roll no :</label>
-        <input type="text" id="rollno" name="rollno" />
-      </div>
-      <div class="student">
-        <label>Student name :</label>
-        <input
-          type="text"
-          id="firstname"
-          name="firstname"
-          placeholder="First Name"
-        />
-        <input
-          type="text"
-          id="lastname"
-          name="lastname"
-          placeholder="Last Name"
-        />
-      </div>
-      <div class="father">
-        <label for="fathername">Father's name :</label>
-        <input type="text" id="fathername" name="fathername" />
-      </div>
-      <div class="dob">
-        <label for="dateofbirth">Date of birth :</label>
-        <input type="date" id="dateofbirth" name="dateofbirth" />
-      </div>
+    <body>
+        <h1>Fill the Form</h1>
+        <form>
+            <div class="rollno">
+                <label for="rollno">Roll no :</label>
+                <input type="text" id="rollno" name="rollno" />
+            </div>
+            <div class="student">
+                <label>Student name :</label>
+                <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="First Name"
+                />
+                <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Last Name"
+                />
+            </div>
+            <div class="father">
+                <label for="fathername">Father's name :</label>
+                <input type="text" id="fathername" name="fathername" />
+            </div>
+            <div class="dob">
+                <label for="dateofbirth">Date of birth :</label>
+                <input type="date" id="dateofbirth" name="dateofbirth" />
+            </div>
 
-      <div class="mobile">
-        <label for="mobile">Mobile number :</label>
-        <input type="tel" id="mobile" name="mobile" />
-      </div>
+            <div class="mobile">
+                <label for="mobile">Mobile number :</label>
+                <input type="tel" id="mobile" name="mobile" />
+            </div>
 
-      <div class="email">
-        <label>Email id :</label>
-        <input type="email" id="email" required />
-      </div>
+            <div class="email">
+                <label>Email id :</label>
+                <input type="email" id="email" required />
+            </div>
 
-      <div class="password">
-        <label>Password :</label>
-        <input type="password" id="password" required />
-      </div>
+            <div class="password">
+                <label>Password :</label>
+                <input type="password" id="password" required />
+            </div>
 
-      <div class="gender">
-        <label>Gender :</label>
-        <input type="radio" id="genderMale" name="gender" value="male" />
-        <label for="genderMale">male</label>
-        <input type="radio" id="genderFemale" name="gender" value="female" />
-        <label for="genderFemale">female</label>
-      </div>
+            <div class="gender">
+                <label>Gender :</label>
+                <input
+                    type="radio"
+                    id="genderMale"
+                    name="gender"
+                    value="male"
+                />
+                <label for="genderMale">male</label>
+                <input
+                    type="radio"
+                    id="genderFemale"
+                    name="gender"
+                    value="female"
+                />
+                <label for="genderFemale">female</label>
+            </div>
 
-      <div class="dept">
-        <label>Department :</label>
-        <input type="checkbox" id="deptCse" name="dept" value="cse" />
-        <label for="deptCse">CSE</label>
-        <input type="checkbox" id="deptIt" name="dept" value="it" />
-        <label for="deptIt">IT</label>
-        <input type="checkbox" id="deptEce" name="dept" value="ece" />
-        <label for="deptEce">ECE</label>
-        <input type="checkbox" id="deptCivil" name="dept" value="civil" />
-        <label for="deptCivil">Civil</label>
-        <input type="checkbox" id="deptMech" name="dept" value="mech" />
-        <label for="deptMech">Mech</label>
-      </div>
+            <div class="dept">
+                <label>Department :</label>
+                <input type="checkbox" id="deptCse" name="dept" value="cse" />
+                <label for="deptCse">CSE</label>
+                <input type="checkbox" id="deptIt" name="dept" value="it" />
+                <label for="deptIt">IT</label>
+                <input type="checkbox" id="deptEce" name="dept" value="ece" />
+                <label for="deptEce">ECE</label>
+                <input
+                    type="checkbox"
+                    id="deptCivil"
+                    name="dept"
+                    value="civil"
+                />
+                <label for="deptCivil">Civil</label>
+                <input type="checkbox" id="deptMech" name="dept" value="mech" />
+                <label for="deptMech">Mech</label>
+            </div>
 
-      <div class="photo">
-        <label for="photo">Student photo :</label>
-        <input type="file" id="photo" name="photo" />
-      </div>
+            <div class="photo">
+                <label for="photo">Student photo :</label>
+                <input type="file" id="photo" name="photo" />
+            </div>
 
-      <div class="address">
-        <label for="address">Address :</label>
-        <textarea name="address" id="address"></textarea>
-      </div>
+            <div class="address">
+                <label for="address">Address :</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
 
-      <div class="submit">
-        <button type="submit" id="submit">Submit</button>
-      </div>
-    </form>
-  </body>
+            <div class="submit">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </body>
 </html>
