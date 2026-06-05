@@ -1,0 +1,176 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logoimg {
+    width: 180px;
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+li {
+    display: inline-block;
+    font-family: PP Telegraf;
+}
+
+li a {
+    margin-right: 10px;
+}
+
+.navleft a {
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.navright a {
+    color: black;
+    font-size: small;
+}
+
+
+button {
+    font-family: PP Telegraf;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.free {
+    border: 1px solid rgb(255, 208, 0);
+    background-color: rgb(255, 208, 0);
+    font-weight: bolder;
+}
+
+.free:hover {
+    background-color: rgb(255, 183, 0);
+}
+
+.apply {
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.secbar {
+    background-color: rgb(255, 204, 0);
+}
+
+.secdiv a {
+    color: black;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.sb-ul {
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dir {
+    font-family: PP Telegraf;
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+
+.dir a {
+    color: black;
+    font-size: medium;
+
+}
+
+.dir a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: PP Telegraf;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+}
+
+.section a {
+    color: black;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+.paragp {
+    margin-bottom: 10px;
+}
+
+.adnew {
+    width: 300px;
+}
+
+.footer {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.basic img {
+    width: 180px;
+}
+
+.basic {
+    display: flex;
+    align-items: center;
+}
+
+.baseleft {
+    display: flex;
+    align-items: center;
+}
+
+.baseleft a {
+    color: black;
+}
+
+.yellow {
+    background-color: rgb(255, 204, 0);
+    height: 10px;
+}
