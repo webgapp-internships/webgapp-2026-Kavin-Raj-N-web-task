@@ -1,0 +1,19 @@
+html,
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 120px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.create{
+    padding: 5px;
+}
