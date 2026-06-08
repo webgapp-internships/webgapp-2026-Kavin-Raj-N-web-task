@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="d1.css">
+        <link rel="stylesheet" href="d1.css" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="amazon.png" alt="Bootstrap" width="100" height="100" />
+                <a class="navbar-brand" href="https://www.amazon.in/ref=nav_logo">
+                    <img src="amazon.png" alt="Bootstrap" class="logoimg" />
                 </a>
                 <button
                     class="navbar-toggler"
@@ -27,7 +27,52 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                            >
+                                <p>Delivering to Chennai 600009</p>
+                                <p>Update Location</p>
+                            </button>
+
+                            <!-- Modal -->
+                            <div
+                                class="modal fade"
+                                id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                Choose your location
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Select a delivery location to see product availability and delivery options
+                                            <br />
+                                            <button class="see-address">
+                                                <a href="#">Sign in to see your address</a>
+                                            </button>
+                                            <br />
+                                            or enter an indian pincode <br />
+                                            <input type="text" />
+                                            <button class="apply"><a href="#">Apply</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
@@ -61,7 +106,7 @@
             </div>
         </nav>
 
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExample" class="carousel slide" class="carsoldiv">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img1.png" class="d-block w-100" alt="..." />
