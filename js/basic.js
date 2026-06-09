@@ -1,7 +1,7 @@
-console.log("Hello world");
-let name = "Javascript";
-const age = 19;
-console.log(name, age);
+// console.log("Hello world");
+// let name = "Javascript";
+// const age = 19;
+// console.log(name, age);
 
 const a = 1;
 const b = 2;
@@ -14,4 +14,3 @@ const b = 2;
 // console.log(a+b, sub, mul, div);
 
 console.log(a + b, a - b, a * b, a / b);
-
