@@ -1,0 +1,19 @@
+Features
+
+. Voice Rooms{
+    `Create Voice Rooms => share the room access to friends or allow strangers to join the room`
+}
+
+. Random Voice Rooms{
+    `Join Voice Rooms in one click`
+}
+
+. Safety{
+    `Default Moderators
+    Block to avoid getting them again
+    Report people with issues so they could get banned`
+}
+
+. Better Connection{
+    `Faster and better connections`
+}
