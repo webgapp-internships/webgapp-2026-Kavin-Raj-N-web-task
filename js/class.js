@@ -8,5 +8,3 @@ class Student {
         return `${this.name} age is ${this.age}`;
     }
 }
-
-
