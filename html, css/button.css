@@ -1,10 +1,22 @@
 html,
 body {
-    font-family: PP Telegraf;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
 }
 
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
 button {
-    background-color: #4f46e5;
+    background-color: #e58646;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -12,20 +24,45 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.2s;
-    font-family: PP Telegraf;
+    font-family: Raleway;
 }
 
 button:hover {
-    background-color: #4338ca;
+    background-color: #e89761;
 }
 
-button:active {
-    transform: scale(0.97);
+h1 {
+    margin-left: 15px;
 }
 
 input {
     padding: 12px 24px;
     border-radius: 8px;
-    border: 0.5px solid black;
+    border: none;
     font-size: large;
+    font-family: Raleway;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+
+}
+
+.output {
+    background-color: rgb(231, 231, 231);
+    width: 350px;
+    height: 60px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    font-size: xx-large;
+    margin-left: 10px;
+    border: 0.5px solid lightgray;
+}
+
+.subdiv {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
 }
