@@ -12,7 +12,7 @@ button {
     color: white;
     padding: 14px 28px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     font-family: Raleway;
@@ -28,7 +28,7 @@ p {
 
 input {
     padding: 12px 24px;
-    border-radius: 6px;
+    border-radius: 4px;
     border: none;
     font-size: large;
     font-family: Raleway;
@@ -38,7 +38,7 @@ input {
 
 .output {
     background-color: rgb(231, 231, 231);
-    border-radius: 6px;
+    border-radius: 4px;
     margin-top: 40px;
     text-align: left;
     padding: 20px;
