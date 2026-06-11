@@ -1,29 +1,20 @@
-html,
-body {
-    font-family: Raleway;
-    margin: 0;
-    padding: 0;
-}
-
 .main {
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    font-family: Raleway;
 }
 
 
 button {
-    background-color: #e58646;
+    background-color: #46ade5;
     color: white;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s;
     font-family: Raleway;
 }
 
@@ -31,13 +22,14 @@ button:hover {
     background-color: #e89761;
 }
 
-h1 {
+p {
     margin-left: 15px;
+    font-size: xx-large;
 }
 
 input {
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
     font-size: large;
     font-family: Raleway;
@@ -48,15 +40,15 @@ input {
 
 .output {
     background-color: rgb(231, 231, 231);
-    width: 350px;
-    height: 60px;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-top: 10px;
     text-align: left;
     padding: 10px;
-    font-size: xx-large;
     margin-left: 10px;
     border: 0.5px solid lightgray;
+    color: rgb(124, 124, 124);
+    height: 200px;
+
 }
 
 .subdiv {
@@ -64,5 +56,5 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 360px;
+    width: 500px;
 }

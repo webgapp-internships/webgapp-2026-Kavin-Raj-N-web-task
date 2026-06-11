@@ -12,3 +12,12 @@ function greet() {
         printOutput(result);
     }
 }
+
+let fruits = ["Apple", "Banana", "Cucumber"];
+function loop() {
+    let result2 = "";
+    for (let i = 0; i < fruits.length; i++) {
+        result2 += fruits[i] + "<br>";
+    }
+    printOutput(result2);
+}
