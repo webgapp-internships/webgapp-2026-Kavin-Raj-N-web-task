@@ -15,9 +15,17 @@ function greet() {
 
 let fruits = ["Apple", "Banana", "Cucumber"];
 function loop() {
-    let result2 = "";
+    let result = "";
     for (let i = 0; i < fruits.length; i++) {
-        result2 += fruits[i] + "<br>";
+        result += fruits[i] + "<br>";
     }
-    printOutput(result2);
+    printOutput(result);
+}
+
+function clear1() {
+    document.getElementById("output").innerHTML = "";
+}
+
+function change_color() {
+    document.getElementById("title").style.color = "blue";
 }
