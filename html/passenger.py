@@ -25,5 +25,5 @@ collection = 0
 
 while j < len(passengers_list):
     collection += passengers_list[j].ticket_price
-    j+=1
+    j += 1
 print("Total Collection: ", collection)
