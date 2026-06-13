@@ -27,17 +27,17 @@ for (let i = 0; i < students.length; i++) {
     console.log("Ranks:", ranks(marks[i]));
     console.log();
 }
-// let j = 0;
-// let count_p = 0;
-// let count_f = 0;
-// while (j < students.length) {
-//     if (ranks(marks[j]) === "P") {
-//         count_p++;
-//     } else {
-//         count_f++;
-//     }
-//     j++;
-// }
+let j = 0;
+let count_p = 0;
+let count_f = 0;
+while (j < students.length) {
+    if (ranks(marks[j]) === "P") {
+        count_p++;
+    } else {
+        count_f++;
+    }
+    j++;
+}
 
-// console.log("Number of students passed:", count_p);
-// console.log("Number of studnets failed:", count_f);
+console.log("Number of students passed:", count_p);
+console.log("Number of studnets failed:", count_f);
