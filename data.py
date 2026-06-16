@@ -39,7 +39,6 @@ cursor = conn.cursor()
 #     "INSERT INTO users(name, email) VALUES(%s,%s)", ("Kavin", "kavinrajn0402@gmail.com")
 # )
 
-
 # cursor.execute("DELETE FROM users WHERE id = 2")
 # conn.commit()
 cursor.execute("SELECT * FROM users")
