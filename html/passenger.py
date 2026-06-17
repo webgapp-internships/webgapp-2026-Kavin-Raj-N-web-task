@@ -1,3 +1,4 @@
+# Encapsulation
 class passenger_details:
 
     def __init__(self, passenger_name, ticket_price):
