@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SMS</title>
+        <style>
+            body {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .container {
+                width: 300px;
+            }
+            span {
+                font-family: "Verdana";
+                font-size: 16px;
+            }
+            .title {
+                margin-bottom: 10px;
+            }
+            .work-area {
+                height: 500px;
+                background-color: gray;
+                padding: 10px;
+                margin-top: 40px;
+            }
+            input{
+                width: 200px;
+            }
+            input::placeholder {
+                font-family: "Verdana";
+            }
+            button {
+                font-family: "Verdana";
+                cursor: pointer;
+
+            }
+        </style>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title"><span>Student Management System</span></div>
+            <div class="work-area">
+                <input type="text" placeholder="Enter Student Roll-no: " />
+                <button>Search</button>
+            </div>
+        </div>
+    </body>
+</html>
