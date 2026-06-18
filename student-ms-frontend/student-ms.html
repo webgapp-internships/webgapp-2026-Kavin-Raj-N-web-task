@@ -3,51 +3,115 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SMS</title>
+        <title>Student Management ...</title>
         <style>
             body {
                 margin: 0;
+                padding: 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
+                background-color: hsla(0, 0%, 10%);
             }
-            .container {
-                width: 300px;
-            }
-            span {
-                font-family: "Verdana";
-                font-size: 16px;
-            }
-            .title {
-                margin-bottom: 10px;
-            }
-            .work-area {
-                height: 500px;
-                background-color: gray;
-                padding: 10px;
-                margin-top: 40px;
-            }
-            input{
-                width: 200px;
-            }
-            input::placeholder {
-                font-family: "Verdana";
-            }
-            button {
-                font-family: "Verdana";
-                cursor: pointer;
 
+            #box {
+                background-color: hsl(0, 0%, 20%);
+                border-radius: 3px;
+                width: 350px;
+                height: 250px;
+                padding: 8px 18px;
+                display: flex;
+                flex-direction: column;
+                border: 0.5px solid hsl(0, 0%, 25%);
+            }
+
+            .box-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                font-size: medium;
+                padding: 6px;
+            }
+
+            .modal-content {
+                flex: 1;
+                padding: 10px;
+            }
+
+            .modal-footer {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 8px;
+                padding: 6px;
+            }
+
+            .btn-span {
+                font-family: "Ubuntu";
+                font-size: small;
+                border: 0.5px solid hsl(0, 0%, 20%);
+                padding: 4px 8px;
+                border-radius: 3px;
+                background-color: hsl(0, 0%, 40%);
+                color: white;
+                cursor: pointer;
+            }
+
+            #grp-label {
+                color: hsl(0, 0%, 100%);
+                margin-right: 10px;
+                cursor: pointer;
+                font-size: small;
+            }
+
+            #roll-no {
+                background-color: hsl(0, 0%, 25%);
+                padding: 4px 10px;
+                border: none;
+                border-radius: 3px;
+                outline: 0.5px solid hsl(0, 0%, 40%);
+                color: hsl(0, 0%, 100%);
+                width: 200px;
+                font-size: small;
+            }
+
+            #roll-no:focus {
+                outline: 1px solid hsl(0, 0%, 40%);
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .title {
+                font-family: "Ubuntu";
+                font-size: x-large;
+                color: white;
+                margin-bottom: 10px;
             }
         </style>
         <script src="script.js" defer></script>
     </head>
     <body>
-        <div class="container">
-            <div class="title"><span>Student Management System</span></div>
-            <div class="work-area">
-                <input type="text" placeholder="Enter Student Roll-no: " />
-                <button>Search</button>
+        <div class="main-window">
+            <div class="title"><span>Portal</span></div>
+            <div id="box">
+                <div class="box-title">
+                    <span style="font-family: &quot;ubuntu&quot;">Search Student Details</span>
+                </div>
+                <div><hr /></div>
+                <div class="modal-content">
+                    <label for="roll-no" id="grp-label" style="font-family: &quot;ubuntu&quot;">Roll No:</label>
+                    <input type="text" id="roll-no" />
+                    <br />
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-span"><span>Search</span></button>
+                    <button class="btn-span"><a href="all-student-details.html">Show All Student Details</a></button>
+                </div>
             </div>
         </div>
     </body>
